@@ -1,12 +1,18 @@
 *{
 
 }
-.container{
+.main-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4 ,1fr);
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: 10vh 40vh 30vh 20vh;
+    gap: 1rem;
 }
 
 .navbar{
-    grid-row: 2 / -1;
-    grid-column: ;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-color: bisque;
+    border: 1px solid gray;
 }

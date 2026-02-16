@@ -16,3 +16,9 @@
     background-color: bisque;
     border: 1px solid gray;
 }
+.sidebar{
+    grid-row: 2 / -1;
+    /* grid-column: 1 / 2; */
+    background-color: aqua;
+    border: 1px solid gray;
+}

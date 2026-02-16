@@ -30,3 +30,8 @@
 .container{
     border: 1px solid gray;
 }
+.footer{
+    grid-column: 2 / -1;
+    background-color: cadetblue;
+    border: 1px solid gray;
+}

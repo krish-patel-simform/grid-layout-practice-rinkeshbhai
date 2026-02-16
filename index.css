@@ -35,3 +35,23 @@
     background-color: cadetblue;
     border: 1px solid gray;
 }
+
+@media screen and (max-width:768px)
+{
+    h1{
+        font-size: medium;
+    }
+    .main-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 1fr 0.7fr 0.7fr 0.7fr 0.6fr;
+        /* grid-template-rows: auto; */
+    }
+    .sidebar,.navbar,.main,.footer,.container{
+        grid-column-start: 1;
+        grid-row: auto;
+    }
+    .sidebar{
+        /* grid-row: 2 / 3; */
+    }
+    
+}

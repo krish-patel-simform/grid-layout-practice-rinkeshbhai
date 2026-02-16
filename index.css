@@ -22,3 +22,8 @@
     background-color: aqua;
     border: 1px solid gray;
 }
+.main{
+    grid-column: 2 / -1;
+    background-color: blueviolet;
+    border: 1px solid gray;
+}
